@@ -21,11 +21,11 @@ if (quantRodas == 2 || quantRodas == 3) {
     console.log("CATEGORIA A")
 } else if (quantRodas == 4 && quantPessoas <= 8 && peso <= 3500) {
     console.log("CATEGORIA B")
-} else if (quantRodas >= 4 && (peso >= 3500 && peso <= 6000)) {
+} else if (quantRodas >= 4 && (peso >= 3500 && peso <= 6000) && quantPessoas <= 8) {
     console.log("CATEGORIA C")
 } else if (quantRodas >= 4 && quantPessoas >=8) {
     console.log("CATEGORIA D")
-} else if (quantRodas >= 4 && peso > 6000) {
+} else if (quantRodas >= 4 && peso > 6000 && quantPessoas <= 8) {
     console.log("CATEGORIA E")
 } else {
     console.log("Veículo não se enquadra nas categorias cadastradas!")
