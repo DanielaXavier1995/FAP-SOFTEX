@@ -6,3 +6,6 @@ const readline = require("readline-sync"); //inicializar o comando para entrada 
 
 var nome = readline.question("Digite o seu nome: ");
 console.log("o nome é: ", nome)
+
+
+
