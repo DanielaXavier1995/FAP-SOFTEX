@@ -39,3 +39,4 @@ if(typeof bool === "boolean") {
 } else {
     console.log("5. A variável não é um boolean");
 }
+
