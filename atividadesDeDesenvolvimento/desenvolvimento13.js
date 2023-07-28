@@ -12,8 +12,6 @@ Caso seja inserido um número de operação que não exista, o resultado deverá
 
 */
 
-const input = require("readline-sync")
-
 console.log('============ BEM VINDO A CALCULADORA ============')
 
 let numero1, numero2, operacao
