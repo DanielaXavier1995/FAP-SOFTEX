@@ -5,8 +5,8 @@ let soma = 0, media;
 
 while (i < numero.length) {
      soma += numero[i];
-     media = soma/(numero.length);
      i++;
 }
+media = soma/(numero.length);
 console.log(media);
 
