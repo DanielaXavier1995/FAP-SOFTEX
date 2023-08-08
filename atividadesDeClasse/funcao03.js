@@ -1,6 +1,7 @@
 
 const input = require("readline-sync")
 
+    console.log('--------- ENTRADA ---------')
     const nome = input.question('Digite o seu nome: ');
     const idade = input.questionInt('Digite a sua idade: ');
     const dia = input.questionInt('Digite o dia: ');
