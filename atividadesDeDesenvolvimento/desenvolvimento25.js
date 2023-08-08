@@ -13,7 +13,7 @@ Codifique a solução mais eficiente para buscar o número 20 no array.
 const array = [15, 8, 10, 25, 12, 30, 5, 20, 18, 7];
 
 array.forEach(() => {
-   posicao = array.indexOf(15);
+   posicao = array.indexOf(20);
 });
 console.log(posicao)
 
