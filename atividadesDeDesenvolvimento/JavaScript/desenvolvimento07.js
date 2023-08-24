@@ -13,7 +13,6 @@ function calculoMedia(nota1, nota2) {
     return console.log(`A média é: ${media}`)
 }
 
-//const calculoMediaArrow = (nota1 = 7, nota2 = 7) => (nota1 + nota2)/2
 const calcularMedia = (nota1, nota2) => ((nota1 + nota2)/2)
 
 //calculoMedia ()
