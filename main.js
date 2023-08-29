@@ -2,9 +2,4 @@
 //formatter prettier => prettier
 //Auto save => off
 
-function name(params) {
-  console.log();
-  console.log();
-  console.log();
-  console.log();
-}
+//Como você cria um objeto vazio, chamado pessoa em JavaScript?
